@@ -1,6 +1,6 @@
 ## Volto-Form-Builder
 
-#Quick Start
+# Quick Start
 
 ##### Install dependencies
 
@@ -18,4 +18,4 @@ yarn start
 
 - create a page
 - click on the add button present in page edit
-- chosee the block from the form field
+- choose the block from the form field
