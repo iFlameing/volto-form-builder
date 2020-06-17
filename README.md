@@ -1,5 +1,7 @@
 ## Volto-Form-Builder
 
+![Volto Form Builder](https://github.com/iFlameing/volto-form-builder/blob/master/volto-form-builder.png?raw=true)
+
 # Quick Start
 
 ##### Install dependencies
