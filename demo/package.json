@@ -4,12 +4,6 @@
   "license": "MIT",
   "version": "6.2.0",
   "private": true,
-  "workspaces": [
-    "src/addons/volto-form-builder"
-  ],
-  "addons": [
-    "volto-form-builder"
-  ],
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -20,6 +14,12 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js"
   },
+  "workspaces": [
+    "../volto-form-builder"
+  ],
+  "addons": [
+    "volto-form-builder"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
